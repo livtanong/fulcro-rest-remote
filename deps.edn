@@ -1,0 +1,3 @@
+{:deps  {fulcrologic/fulcro {:mvn/version "2.6.0"}
+         cljs-http          {:mvn/version "0.1.45"}}
+ :paths ["src/main"]}
