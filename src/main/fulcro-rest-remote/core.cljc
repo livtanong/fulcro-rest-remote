@@ -6,7 +6,8 @@
             [fulcro.client.network :as net]
             [fulcro.client.primitives :as prim]
             [fulcro.util])
-  #?(:cljs (:require-macros fulcro-rest-remote.core)))
+  ;; #?(:cljs (:require-macros fulcro-rest-remote.core))
+  )
 
 (def valid-rest-methods
   #{:delete :get :head :jsonp :move :options :patch :post :put})
